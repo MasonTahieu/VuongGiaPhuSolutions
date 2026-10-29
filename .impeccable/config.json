@@ -1,0 +1,86 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "site-moi/index.html"
+        ],
+        "createdAt": "2026-10-28T00:57:56.687Z",
+        "reason": "Warm-brown elevation shadow tokens rgba(60,36,14) from the brand palette, not a chromatic glow; agent judgment"
+      },
+      {
+        "rule": "icon-tile-stack",
+        "value": "*",
+        "files": [
+          "site-moi/index.html"
+        ],
+        "createdAt": "2026-10-28T01:09:54.523Z",
+        "reason": "Rendered check 2026-10-28: pillar icon sits beside its h3 at 390/800/1280px (quieter-pass grid); static scan reads source order; agent judgment"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "site-moi/index.html"
+        ],
+        "createdAt": "2026-10-28T01:09:54.915Z",
+        "reason": "Rendered check 2026-10-28: hero-sub 20-28px below its hairline, brand-strip inner padding 22px, contact list uses hairline dividers by design, footer-bottom 20px; agent judgment"
+      },
+      {
+        "rule": "overused-font",
+        "value": "plus jakarta sans",
+        "createdAt": "2026-10-28T01:10:14.019Z",
+        "reason": "User confirmed 2026-10-26: Plus Jakarta Sans 700 for page h1s as the free Vietnamese-capable stand-in for SVN-Gilroy"
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "site-moi/**/index.html"
+        ],
+        "createdAt": "2026-10-28T01:15:56.733Z",
+        "reason": "Subpages share the homepage shell; rendered checks 2026-10-28 (insets 10-113px, icons beside headings, warm-brown elevation shadow tokens) show false positives; agent judgment"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "site-moi/**/index.html"
+        ],
+        "createdAt": "2026-10-28T01:15:57.298Z",
+        "reason": "Subpages share the homepage shell; rendered checks 2026-10-28 (insets 10-113px, icons beside headings, warm-brown elevation shadow tokens) show false positives; agent judgment"
+      },
+      {
+        "rule": "icon-tile-stack",
+        "value": "*",
+        "files": [
+          "site-moi/**/index.html"
+        ],
+        "createdAt": "2026-10-28T01:15:58.023Z",
+        "reason": "Subpages share the homepage shell; rendered checks 2026-10-28 (insets 10-113px, icons beside headings, warm-brown elevation shadow tokens) show false positives; agent judgment"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "site-moi/**/*.html"
+        ],
+        "createdAt": "2026-10-28T07:36:57.880Z",
+        "reason": "User confirmed 2026-10-28: warm ivory/espresso/copper palette taken from the logo, kept on purpose"
+      },
+      {
+        "rule": "gradient-text",
+        "value": "*",
+        "files": [
+          "site-moi/**/*.html"
+        ],
+        "createdAt": "2026-10-28T07:36:58.282Z",
+        "reason": "User confirmed 2026-10-26/28: copper gradient on one or two accent words per headline"
+      }
+    ]
+  }
+}
