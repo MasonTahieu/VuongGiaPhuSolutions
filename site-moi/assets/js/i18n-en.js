@@ -20,7 +20,7 @@ window.I18N_EN = {
   'crumb.aria': 'Breadcrumb',
 
   // Home
-  'home.title': 'Building <span class="text-grad">living spaces</span> &amp; <span class="text-grad">digital foundations</span> for you',
+  'home.title': 'A home <span class="text-grad">you love</span>, Vuong Gia Phu <span class="text-grad">takes care</span>',
   'home.lead': 'We partner with businesses and families through two end-to-end solution lines: technology – software – AI, and interior design – construction – equipment.',
   'home.fields.eyebrow': 'What we do',
   'home.fields.title': 'Two strengths, one commitment to quality',
